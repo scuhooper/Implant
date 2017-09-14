@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Implant.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{614E81A7-62EC-4852-A7B0-06C47B168F7C}</UniqueIdentifier>
+			<UniqueIdentifier>{461828D8-14F9-4776-BBCC-251D079731A6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Implant.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{7AA1E73A-0C0A-47D3-8031-14B6FDB02C22}</UniqueIdentifier>
+			<UniqueIdentifier>{F225FE19-D3F0-4945-852E-35C16461D4F9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Implant">
-			<UniqueIdentifier>{0ACAB02F-3FD7-46ED-9028-8C5733CAD8EA}</UniqueIdentifier>
+			<UniqueIdentifier>{44A94A0B-11EF-4331-9DD5-3504176CF447}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Implant\Implant.Build.cs">
 			<Filter>Source\Implant</Filter>

@@ -1,0 +1,898 @@
+﻿Log file open, 09/13/17 21:45:37
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Implant
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-862501848) SRandInit(-862501848).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.400030
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.14-03.45.39:373][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.14-03.45.39:373][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.14-03.45.39:386][  0]LogInit: Computer: HOOP-DESKTOP
+[2017.09.14-03.45.39:386][  0]LogInit: User: scuho
+[2017.09.14-03.45.39:386][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.14-03.45.39:386][  0]LogInit: High frequency timer resolution =3.897235 MHz
+[2017.09.14-03.45.39:386][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.14-03.45.39:386][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.14-03.45.39:386][  0]LogMemory: Process Physical Memory: 278.04 MB used, 278.04 MB peak
+[2017.09.14-03.45.39:386][  0]LogMemory: Process Virtual Memory: 275.38 MB used, 275.38 MB peak
+[2017.09.14-03.45.39:386][  0]LogMemory: Physical Memory: 6530.33 MB used,  9806.93 MB free, 16337.25 MB total
+[2017.09.14-03.45.39:386][  0]LogMemory: Virtual Memory: 668.00 MB used,  9806.93 MB free, 134217728.00 MB total
+[2017.09.14-03.45.39:984][  0]LogInit: Using OS detected language (en-US).
+[2017.09.14-03.45.39:984][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.14-03.45.39:992][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.14-03.45.41:087][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.14-03.45.41:778][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.14-03.45.41:779][  0]LogD3D11RHI:       8085/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.14-03.45.41:784][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.14-03.45.41:784][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.14-03.45.41:784][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.14-03.45.41:792][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.14-03.45.41:792][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.14-03.45.41:792][  0]LogWindows: EnumDisplayDevices:
+[2017.09.14-03.45.41:792][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.14-03.45.41:792][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.09.14-03.45.41:792][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-03.45.41:793][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.14-03.45.41:793][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.14-03.45.41:793][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.14-03.45.41:793][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.09.14-03.45.41:793][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.09.14-03.45.41:793][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.14-03.45.42:318][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.14-03.45.42:401][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.14-03.45.42:458][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (../../../../../../Implant/Implant/Intermediate/Shaders/WorkingDirectory/5068/).
+[2017.09.14-03.45.42:458][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/scuho/AppData/Local/Temp/UnrealShaderWorkingDir/55501A0942698A1C0DE1EBA57744649E/'.
+[2017.09.14-03.45.42:458][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.14-03.45.43:857][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.14-03.45.43:929][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.14-03.45.44:001][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.14-03.45.44:076][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.14-03.45.44:151][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.14-03.45.44:226][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.14-03.45.44:300][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.14-03.45.44:379][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.14-03.45.44:458][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.14-03.45.44:539][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.14-03.45.44:610][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.14-03.45.44:685][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.14-03.45.44:755][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.14-03.45.44:826][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.14-03.45.44:897][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.14-03.45.45:040][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.14-03.45.45:040][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.14-03.45.45:102][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.14-03.45.45:257][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.14-03.45.45:302][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.14-03.45.45:376][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.14-03.45.45:454][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.14-03.45.45:536][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.14-03.45.45:606][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.14-03.45.45:606][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.14-03.45.46:809][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.14-03.45.47:168][  0]LogDerivedDataCache: Loaded boot cache 0.36s 93MB C:/Users/scuho/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.14-03.45.47:168][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/scuho/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.14-03.45.47:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Implant/Implant/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.14-03.45.47:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.14-03.45.47:169][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Implant/Implant/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.14-03.45.47:169][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.14-03.45.47:189][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.14-03.45.47:202][  0]LogDerivedDataCache: Using Local data cache path C:/Users/scuho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.14-03.45.47:216][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.14-03.45.47:218][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.14-03.45.47:219][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.14-03.45.47:219][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.14-03.45.47:764][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.09.14-03.45.47:905][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.14-03.45.48:139][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.14-03.45.48:787][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.14-03.45.48:872][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.14-03.45.48:872][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.14-03.45.48:872][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.14-03.45.48:872][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.14-03.45.48:872][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.14-03.45.49:382][  0]LogNetVersion: Implant , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 766320878)
+[2017.09.14-03.45.49:705][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.071291 seconds
+[2017.09.14-03.45.49:713][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.14-03.45.49:713][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.14-03.45.49:713][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.14-03.45.49:801][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.14-03.45.53:960][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.14-03.45.54:019][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.14-03.45.55:374][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.14-03.45.55:955][  0]SourceControl: Source control is disabled
+[2017.09.14-03.45.55:955][  0]SourceControl: Source control is disabled
+[2017.09.14-03.45.56:054][  0]SourceControl: Source control is disabled
+[2017.09.14-03.45.56:143][  0]SourceControl: Source control is disabled
+[2017.09.14-03.45.57:121][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.14-03.45.57:500][  0]LogOcInput: OculusInput pre-init called
+[2017.09.14-03.45.57:907][  0]LogEngine: Initializing Engine...
+[2017.09.14-03.45.57:909][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.14-03.45.58:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.14-03.45.58:140][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.14-03.45.58:335][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.14-03.45.58:385][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.14-03.45.58:404][  0]LogInit: FAudioDevice initialized.
+[2017.09.14-03.45.58:493][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/scuho/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.14-03.45.58:505][  0]LogInit: Texture streaming: Enabled
+[2017.09.14-03.45.58:725][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.14-03.45.59:049][  0]LogInit: Transaction tracking system initialized
+[2017.09.14-03.45.59:541][  0]BlueprintLog: New page: Editor Load
+[2017.09.14-03.46.01:168][  0]LocalizationService: Localization service is disabled
+[2017.09.14-03.46.02:335][  0]LogConsoleResponse: Display: 
+[2017.09.14-03.46.02:576][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.14-03.46.02:576][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.14-03.46.02:576][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.14-03.46.03:388][  0]LogFileCache: Scanning file cache for directory 'C:/Implant/Implant/Content/' took 0.02s
+[2017.09.14-03.46.04:245][  0]SourceControl: Source control is disabled
+[2017.09.14-03.46.04:245][  0]Cmd: MAP LOAD FILE="../../../../../../Implant/Implant/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.14-03.46.04:246][  0]LightingResults: New page: Lighting Build
+[2017.09.14-03.46.04:298][  0]MapCheck: New page: Map Check
+[2017.09.14-03.46.04:298][  0]LightingResults: New page: Lighting Build
+[2017.09.14-03.46.04:530][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.09.14-03.46.04:572][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.14-03.46.04:598][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.14-03.46.04:666][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.226ms to complete.
+[2017.09.14-03.46.04:666][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.421
+[2017.09.14-03.46.05:137][  0]LogCollectionManager: Loaded 0 collections in 0.001731 seconds
+[2017.09.14-03.46.05:252][  0]LogFileCache: Scanning file cache for directory 'C:/Implant/Implant/Saved/Collections/' took 0.01s
+[2017.09.14-03.46.05:252][  0]LogFileCache: Scanning file cache for directory 'C:/Implant/Implant/Content/Developers/scuho/Collections/' took 0.01s
+[2017.09.14-03.46.05:252][  0]LogFileCache: Scanning file cache for directory 'C:/Implant/Implant/Content/Collections/' took 0.01s
+[2017.09.14-03.46.05:252][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.14-03.46.05:262][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2390 classes and 502 folders.
+[2017.09.14-03.46.05:343][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.09.14-03.46.05:443][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.09.14-03.46.05:529][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.09.14-03.46.05:601][  0]LogSlate: Took 0.001159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.14-03.46.05:603][  0]LogSlate: Took 0.000989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.14-03.46.05:609][  0]LogSlate: Took 0.001195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.14-03.46.05:715][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2017.09.14-03.46.05:978][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2017.09.14-03.46.05:979][  0]LogLoad: (Engine Initialization) Total time: 30.28 seconds
+[2017.09.14-03.46.05:979][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.14-03.46.05:979][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.14-03.46.05:979][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.14-03.46.06:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.14-03.46.06:098][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Implant/Implant/Content/' took 0.07s
+[2017.09.14-03.46.06:110][  1]LogAssetRegistry: Asset discovery search completed in 18.3675 seconds
+[2017.09.14-03.46.06:112][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.14-03.46.06:112][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000098 seconds (updated 0 objects)
+[2017.09.14-03.46.09:158][226]LogSlate: Took 0.002454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.14-03.46.27:170][164]AssetReimport: New page: Outstanding source content changes 3:46:27 PM
+[2017.09.14-03.46.27:322][165]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.FBX)
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: Model, ItemCount : 3
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: AnimationCurve, ItemCount : 9
+[2017.09.14-03.46.27:328][165]LogFbx: ItemName: AnimationCurveNode, ItemCount : 3
+[2017.09.14-03.46.27:333][165]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.FBX
+[2017.09.14-03.46.27:343][165]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.46.48:704][165]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.FBX
+[2017.09.14-03.46.48:715][165]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.46.48:715][165]LogFbx: =================================================
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node START [WPN_MK2Grenade_pin] 
+[2017.09.14-03.46.48:715][165]LogFbx: 	Total Deformer Count -1893566240.
+[2017.09.14-03.46.48:715][165]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.46.48:715][165]LogFbx: 		[Node Attribute Child 1] WPN_MK2Grenade_pin (Type Mesh).
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node END [WPN_MK2Grenade_pin]
+[2017.09.14-03.46.48:715][165]LogFbx: =================================================
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node START [WPN_MK2Grenade_ring] 
+[2017.09.14-03.46.48:715][165]LogFbx: 	Total Deformer Count -1893566240.
+[2017.09.14-03.46.48:715][165]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.46.48:715][165]LogFbx: 		[Node Attribute Child 1] WPN_MK2Grenade_ring (Type Mesh).
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node END [WPN_MK2Grenade_ring]
+[2017.09.14-03.46.48:715][165]LogFbx: =================================================
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node START [WPN_MK2Grenade] 
+[2017.09.14-03.46.48:715][165]LogFbx: 	Total Deformer Count -1893993040.
+[2017.09.14-03.46.48:715][165]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.46.48:715][165]LogFbx: 		[Node Attribute Child 1] WPN_MK2Grenade (Type Mesh).
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node END [WPN_MK2Grenade]
+[2017.09.14-03.46.48:715][165]LogFbx: =================================================
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node START [WPN_MK2Grenade_pin] 
+[2017.09.14-03.46.48:715][165]LogFbx: 	Total Deformer Count -1893578912.
+[2017.09.14-03.46.48:715][165]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.46.48:715][165]LogFbx: 		[Node Attribute Child 1] WPN_MK2Grenade_pin (Type Mesh).
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node END [WPN_MK2Grenade_pin]
+[2017.09.14-03.46.48:715][165]LogFbx: =================================================
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node START [WPN_MK2Grenade_ring] 
+[2017.09.14-03.46.48:715][165]LogFbx: 	Total Deformer Count -1893578912.
+[2017.09.14-03.46.48:715][165]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.46.48:715][165]LogFbx: 		[Node Attribute Child 1] WPN_MK2Grenade_ring (Type Mesh).
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node END [WPN_MK2Grenade_ring]
+[2017.09.14-03.46.48:715][165]LogFbx: =================================================
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node START [WPN_MK2Grenade] 
+[2017.09.14-03.46.48:715][165]LogFbx: 	Total Deformer Count -1893993520.
+[2017.09.14-03.46.48:715][165]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.46.48:715][165]LogFbx: 		[Node Attribute Child 1] WPN_MK2Grenade (Type Mesh).
+[2017.09.14-03.46.48:715][165]LogFbx: Dumping Node END [WPN_MK2Grenade]
+[2017.09.14-03.46.48:716][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPNM_MK2Grenade'
+[2017.09.14-03.46.48:716][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPNM_MK2Grenade'
+[2017.09.14-03.46.48:719][165]LogMaterial: Missing cached shader map for material WPNM_MK2Grenade, compiling. 
+[2017.09.14-03.46.48:768][165]LogMaterial: Missing cached shader map for material WPNM_MK2Grenade, compiling. 
+[2017.09.14-03.46.48:796][165]LogFbx: Triangulating skeletal mesh WPN_MK2Grenade_pin
+[2017.09.14-03.46.48:841][165]LogSkeletalMesh: Section 0: 257 vertices, 1 active bones
+[2017.09.14-03.46.48:842][165]LogSkeletalMesh: Section 0: Material=0, 346 triangles
+[2017.09.14-03.46.48:844][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_pin_Skeleton'
+[2017.09.14-03.46.48:844][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_pin_Skeleton'
+[2017.09.14-03.46.48:848][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_pin_PhysicsAsset'
+[2017.09.14-03.46.48:848][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_pin_PhysicsAsset'
+[2017.09.14-03.46.48:856][165]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2017.09.14-03.46.48:893][165]LogSkeletalMesh: Section 0: 1054 vertices, 1 active bones
+[2017.09.14-03.46.48:900][165]LogSkeletalMesh: Section 0: Material=0, 1876 triangles
+[2017.09.14-03.46.48:901][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_ring_Skeleton'
+[2017.09.14-03.46.48:901][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_ring_Skeleton'
+[2017.09.14-03.46.48:904][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_ring_PhysicsAsset'
+[2017.09.14-03.46.48:904][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_ring_PhysicsAsset'
+[2017.09.14-03.46.48:909][165]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0'
+[2017.09.14-03.46.49:016][165]LogSkeletalMesh: Section 0: 2686 vertices, 1 active bones
+[2017.09.14-03.46.49:026][165]LogSkeletalMesh: Section 0: Material=0, 3862 triangles
+[2017.09.14-03.46.49:029][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_Skeleton'
+[2017.09.14-03.46.49:029][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_Skeleton'
+[2017.09.14-03.46.49:032][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_PhysicsAsset'
+[2017.09.14-03.46.49:032][165]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_PhysicsAsset'
+[2017.09.14-03.46.49:037][165]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_4.SkeletalMeshComponent0'
+[2017.09.14-03.46.49:871][166]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.obj)
+[2017.09.14-03.46.49:879][166]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.obj
+[2017.09.14-03.46.49:950][166]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.11:842][166]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.obj
+[2017.09.14-03.47.11:887][166]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.11:890][166]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2GrenadeMat'
+[2017.09.14-03.47.11:890][166]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2GrenadeMat'
+[2017.09.14-03.47.12:270][166]LogStaticMesh: Building static mesh WPN_MK2Grenade_WPN_MK2Grenade...
+[2017.09.14-03.47.12:323][166]LogStaticMesh: Built static mesh [0.05s] /Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade.WPN_MK2Grenade_WPN_MK2Grenade
+[2017.09.14-03.47.12:338][166]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_pinMat'
+[2017.09.14-03.47.12:338][166]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_pinMat'
+[2017.09.14-03.47.12:372][166]LogStaticMesh: Building static mesh WPN_MK2Grenade_WPN_MK2Grenade_pin...
+[2017.09.14-03.47.12:379][166]LogStaticMesh: Built static mesh [0.01s] /Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_pin.WPN_MK2Grenade_WPN_MK2Grenade_pin
+[2017.09.14-03.47.12:384][166]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_ringMat'
+[2017.09.14-03.47.12:385][166]LogLinker: Can't find file '/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_ringMat'
+[2017.09.14-03.47.12:575][166]LogStaticMesh: Building static mesh WPN_MK2Grenade_WPN_MK2Grenade_ring...
+[2017.09.14-03.47.12:598][166]LogStaticMesh: Built static mesh [0.02s] /Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade_WPN_MK2Grenade_ring.WPN_MK2Grenade_WPN_MK2Grenade_ring
+[2017.09.14-03.47.12:779][167]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/AKM/Models_Textures/WPN_AKM.FBX)
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: Model, ItemCount : 7
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: Geometry, ItemCount : 7
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: Material, ItemCount : 2
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: AnimationCurve, ItemCount : 21
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: AnimationCurveNode, ItemCount : 7
+[2017.09.14-03.47.12:784][167]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.14-03.47.12:789][167]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/AKM/Models_Textures/WPN_AKM.FBX
+[2017.09.14-03.47.12:814][167]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.39:048][167]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/AKM/Models_Textures/WPN_AKM.FBX
+[2017.09.14-03.47.39:068][167]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.39:068][167]LogFbx: =================================================
+[2017.09.14-03.47.39:068][167]LogFbx: Dumping Node START [WPN_AKM] 
+[2017.09.14-03.47.39:068][167]LogFbx: 	Total Deformer Count -1894527512.
+[2017.09.14-03.47.39:068][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:068][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM (Type Mesh).
+[2017.09.14-03.47.39:068][167]LogFbx: Dumping Node END [WPN_AKM]
+[2017.09.14-03.47.39:068][167]LogFbx: =================================================
+[2017.09.14-03.47.39:068][167]LogFbx: Dumping Node START [WPN_AKM_magazine] 
+[2017.09.14-03.47.39:068][167]LogFbx: 	Total Deformer Count -1847725744.
+[2017.09.14-03.47.39:068][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:068][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_magazine (Type Mesh).
+[2017.09.14-03.47.39:068][167]LogFbx: Dumping Node END [WPN_AKM_magazine]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM_trigger] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count -1847725744.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_trigger (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM_trigger]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM_safetyswitch] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count 295197024.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_safetyswitch (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM_safetyswitch]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM_bolt_carrier] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count 295197024.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_bolt_carrier (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM_bolt_carrier]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM_rear_sight_leaf] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count 305855168.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_rear_sight_leaf (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM_rear_sight_leaf]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [cal_7_62x39] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count 308564928.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] cal_7_62x39 (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [cal_7_62x39]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count -1894530256.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM_magazine] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count -1847725984.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_magazine (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM_magazine]
+[2017.09.14-03.47.39:069][167]LogFbx: =================================================
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node START [WPN_AKM_trigger] 
+[2017.09.14-03.47.39:069][167]LogFbx: 	Total Deformer Count -1847725984.
+[2017.09.14-03.47.39:069][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:069][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_trigger (Type Mesh).
+[2017.09.14-03.47.39:069][167]LogFbx: Dumping Node END [WPN_AKM_trigger]
+[2017.09.14-03.47.39:070][167]LogFbx: =================================================
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node START [WPN_AKM_safetyswitch] 
+[2017.09.14-03.47.39:070][167]LogFbx: 	Total Deformer Count 295203552.
+[2017.09.14-03.47.39:070][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:070][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_safetyswitch (Type Mesh).
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node END [WPN_AKM_safetyswitch]
+[2017.09.14-03.47.39:070][167]LogFbx: =================================================
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node START [WPN_AKM_bolt_carrier] 
+[2017.09.14-03.47.39:070][167]LogFbx: 	Total Deformer Count 295203552.
+[2017.09.14-03.47.39:070][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:070][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_bolt_carrier (Type Mesh).
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node END [WPN_AKM_bolt_carrier]
+[2017.09.14-03.47.39:070][167]LogFbx: =================================================
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node START [WPN_AKM_rear_sight_leaf] 
+[2017.09.14-03.47.39:070][167]LogFbx: 	Total Deformer Count 305841728.
+[2017.09.14-03.47.39:070][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:070][167]LogFbx: 		[Node Attribute Child 1] WPN_AKM_rear_sight_leaf (Type Mesh).
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node END [WPN_AKM_rear_sight_leaf]
+[2017.09.14-03.47.39:070][167]LogFbx: =================================================
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node START [cal_7_62x39] 
+[2017.09.14-03.47.39:070][167]LogFbx: 	Total Deformer Count 308567296.
+[2017.09.14-03.47.39:070][167]LogFbx: 	Attribute () Type (4).
+[2017.09.14-03.47.39:070][167]LogFbx: 		[Node Attribute Child 1] cal_7_62x39 (Type Mesh).
+[2017.09.14-03.47.39:070][167]LogFbx: Dumping Node END [cal_7_62x39]
+[2017.09.14-03.47.39:071][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPNM_AKM'
+[2017.09.14-03.47.39:071][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPNM_AKM'
+[2017.09.14-03.47.39:074][167]LogMaterial: Missing cached shader map for material WPNM_AKM, compiling. 
+[2017.09.14-03.47.39:106][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPNT_AKM_DirectX'
+[2017.09.14-03.47.39:106][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPNT_AKM_DirectX'
+[2017.09.14-03.47.39:108][167]LogMaterial: Missing cached shader map for material WPNM_AKM, compiling. 
+[2017.09.14-03.47.39:467][167]LogSkeletalMesh: Section 0: 10735 vertices, 1 active bones
+[2017.09.14-03.47.39:495][167]LogSkeletalMesh: Section 0: Material=0, 12565 triangles
+[2017.09.14-03.47.39:500][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_Skeleton'
+[2017.09.14-03.47.39:500][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_Skeleton'
+[2017.09.14-03.47.39:504][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_PhysicsAsset'
+[2017.09.14-03.47.39:504][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_PhysicsAsset'
+[2017.09.14-03.47.39:592][167]LogSkeletalMesh: Section 0: 2214 vertices, 1 active bones
+[2017.09.14-03.47.39:595][167]LogSkeletalMesh: Section 0: Material=0, 2915 triangles
+[2017.09.14-03.47.39:597][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_magazine_Skeleton'
+[2017.09.14-03.47.39:597][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_magazine_Skeleton'
+[2017.09.14-03.47.39:601][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_magazine_PhysicsAsset'
+[2017.09.14-03.47.39:601][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_magazine_PhysicsAsset'
+[2017.09.14-03.47.39:607][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_7:PersistentLevel.SkeletalMeshActor_7.SkeletalMeshComponent0'
+[2017.09.14-03.47.39:611][167]LogFbx: Triangulating skeletal mesh WPN_AKM_trigger
+[2017.09.14-03.47.39:634][167]LogSkeletalMesh: Section 0: 166 vertices, 1 active bones
+[2017.09.14-03.47.39:634][167]LogSkeletalMesh: Section 0: Material=0, 174 triangles
+[2017.09.14-03.47.39:635][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_trigger_Skeleton'
+[2017.09.14-03.47.39:636][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_trigger_Skeleton'
+[2017.09.14-03.47.39:640][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_trigger_PhysicsAsset'
+[2017.09.14-03.47.39:640][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_trigger_PhysicsAsset'
+[2017.09.14-03.47.39:646][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_9.SkeletalMeshComponent0'
+[2017.09.14-03.47.39:671][167]LogSkeletalMesh: Section 0: 593 vertices, 1 active bones
+[2017.09.14-03.47.39:673][167]LogSkeletalMesh: Section 0: Material=0, 620 triangles
+[2017.09.14-03.47.39:674][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_safetyswitch_Skeleton'
+[2017.09.14-03.47.39:674][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_safetyswitch_Skeleton'
+[2017.09.14-03.47.39:678][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_safetyswitch_PhysicsAsset'
+[2017.09.14-03.47.39:679][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_safetyswitch_PhysicsAsset'
+[2017.09.14-03.47.39:686][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_11:PersistentLevel.SkeletalMeshActor_11.SkeletalMeshComponent0'
+[2017.09.14-03.47.39:698][167]LogSkeletalMesh: Section 0: 265 vertices, 1 active bones
+[2017.09.14-03.47.39:699][167]LogSkeletalMesh: Section 0: Material=0, 244 triangles
+[2017.09.14-03.47.39:699][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_bolt_carrier_Skeleton'
+[2017.09.14-03.47.39:700][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_bolt_carrier_Skeleton'
+[2017.09.14-03.47.39:704][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_bolt_carrier_PhysicsAsset'
+[2017.09.14-03.47.39:704][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_bolt_carrier_PhysicsAsset'
+[2017.09.14-03.47.39:710][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_13:PersistentLevel.SkeletalMeshActor_13.SkeletalMeshComponent0'
+[2017.09.14-03.47.39:733][167]LogSkeletalMesh: Section 0: 687 vertices, 1 active bones
+[2017.09.14-03.47.39:735][167]LogSkeletalMesh: Section 0: Material=0, 616 triangles
+[2017.09.14-03.47.39:736][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_rear_sight_leaf_Skeleton'
+[2017.09.14-03.47.39:736][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_rear_sight_leaf_Skeleton'
+[2017.09.14-03.47.39:741][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_rear_sight_leaf_PhysicsAsset'
+[2017.09.14-03.47.39:741][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_WPN_AKM_rear_sight_leaf_PhysicsAsset'
+[2017.09.14-03.47.39:749][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_15:PersistentLevel.SkeletalMeshActor_15.SkeletalMeshComponent0'
+[2017.09.14-03.47.39:755][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPNM_calibers'
+[2017.09.14-03.47.39:755][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPNM_calibers'
+[2017.09.14-03.47.39:782][167]LogSkeletalMesh: Section 0: 520 vertices, 1 active bones
+[2017.09.14-03.47.39:783][167]LogSkeletalMesh: Section 0: Material=0, 762 triangles
+[2017.09.14-03.47.39:784][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_cal_7_62x39_Skeleton'
+[2017.09.14-03.47.39:784][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_cal_7_62x39_Skeleton'
+[2017.09.14-03.47.39:789][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_cal_7_62x39_PhysicsAsset'
+[2017.09.14-03.47.39:789][167]LogLinker: Can't find file '/Game/ChamferModels/AKM/Models_Textures/WPN_AKM_cal_7_62x39_PhysicsAsset'
+[2017.09.14-03.47.39:795][167]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_17.SkeletalMeshComponent0'
+[2017.09.14-03.47.40:398][168]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.obj)
+[2017.09.14-03.47.40:404][168]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.obj
+[2017.09.14-03.47.40:408][168]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.47:226][168]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.obj
+[2017.09.14-03.47.47:229][168]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.47:229][168]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22Mat'
+[2017.09.14-03.47.47:230][168]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22Mat'
+[2017.09.14-03.47.47:264][168]LogStaticMesh: Building static mesh WPN_bullet_22...
+[2017.09.14-03.47.47:270][168]LogStaticMesh: Built static mesh [0.01s] /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.WPN_bullet_22
+[2017.09.14-03.47.47:697][169]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.obj)
+[2017.09.14-03.47.47:702][169]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.obj
+[2017.09.14-03.47.47:706][169]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.51:145][169]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.obj
+[2017.09.14-03.47.51:149][169]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.51:149][169]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308Mat'
+[2017.09.14-03.47.51:150][169]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308Mat'
+[2017.09.14-03.47.51:180][169]LogStaticMesh: Building static mesh WPN_bullet_308...
+[2017.09.14-03.47.51:184][169]LogStaticMesh: Built static mesh [0.00s] /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.WPN_bullet_308
+[2017.09.14-03.47.51:322][170]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.obj)
+[2017.09.14-03.47.51:327][170]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.obj
+[2017.09.14-03.47.51:330][170]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.52:688][170]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.obj
+[2017.09.14-03.47.52:690][170]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.52:691][170]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357Mat'
+[2017.09.14-03.47.52:691][170]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357Mat'
+[2017.09.14-03.47.52:720][170]LogStaticMesh: Building static mesh WPN_bullet_357...
+[2017.09.14-03.47.52:725][170]LogStaticMesh: Built static mesh [0.00s] /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.WPN_bullet_357
+[2017.09.14-03.47.52:856][171]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.obj)
+[2017.09.14-03.47.52:861][171]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.obj
+[2017.09.14-03.47.52:863][171]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.53:961][171]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.obj
+[2017.09.14-03.47.53:963][171]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.53:966][171]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40Mat'
+[2017.09.14-03.47.53:966][171]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40Mat'
+[2017.09.14-03.47.53:992][171]LogStaticMesh: Building static mesh WPN_bullet_40...
+[2017.09.14-03.47.53:996][171]LogStaticMesh: Built static mesh [0.00s] /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.WPN_bullet_40
+[2017.09.14-03.47.54:086][172]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.obj)
+[2017.09.14-03.47.54:091][172]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.obj
+[2017.09.14-03.47.54:093][172]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.55:249][172]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.obj
+[2017.09.14-03.47.55:251][172]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.55:254][172]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45Mat'
+[2017.09.14-03.47.55:254][172]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45Mat'
+[2017.09.14-03.47.55:285][172]LogStaticMesh: Building static mesh WPN_bullet_45...
+[2017.09.14-03.47.55:290][172]LogStaticMesh: Built static mesh [0.01s] /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.WPN_bullet_45
+[2017.09.14-03.47.55:431][173]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.obj)
+[2017.09.14-03.47.55:437][173]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.obj
+[2017.09.14-03.47.55:440][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.59:962][173]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.obj
+[2017.09.14-03.47.59:965][173]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.47.59:966][173]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56Mat'
+[2017.09.14-03.47.59:966][173]LogLinker: Can't find file '/Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56Mat'
+[2017.09.14-03.47.59:998][173]LogStaticMesh: Building static mesh WPN_bullet_5_56...
+[2017.09.14-03.48.00:005][173]LogStaticMesh: Built static mesh [0.01s] /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.WPN_bullet_5_56
+[2017.09.14-03.48.00:118][174]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_7x28.obj)
+[2017.09.14-03.48.00:123][174]LogFbx: Loading FBX Scene from C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_7x28.obj
+[2017.09.14-03.48.00:125][174]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.14-03.48.08:808][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade" FILE="../../../../../../Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.uasset" SILENT=true
+[2017.09.14-03.48.08:843][175]LogSavePackage: Save=31.56ms
+[2017.09.14-03.48.08:843][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_MK2Grenade57A2F84D4263A27F390C7F83D7356AD4.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.uasset'
+[2017.09.14-03.48.08:847][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.uasset
+[2017.09.14-03.48.08:848][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade" FILE="../../../../../../Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.uasset" SILENT=true
+[2017.09.14-03.48.08:867][175]LogSavePackage: Save=11.71ms
+[2017.09.14-03.48.08:867][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_MK2Grenade111FFA2747D71DBC886CB580050A8D63.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.uasset'
+[2017.09.14-03.48.08:869][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/MK2_Grenade/WPN_MK2Grenade.uasset
+[2017.09.14-03.48.08:984][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ChamferModels/AKM/Models_Textures/WPN_AKM" FILE="../../../../../../Implant/Implant/Content/ChamferModels/AKM/Models_Textures/WPN_AKM.uasset" SILENT=true
+[2017.09.14-03.48.09:060][175]LogSavePackage: Save=73.90ms
+[2017.09.14-03.48.09:060][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_AKM98D33F094222B82D65D7FA8780334F9B.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/AKM/Models_Textures/WPN_AKM.uasset'
+[2017.09.14-03.48.09:065][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/AKM/Models_Textures/WPN_AKM.uasset
+[2017.09.14-03.48.09:112][175]LogSavePackage: Save=11.46ms
+[2017.09.14-03.48.09:112][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_bullet_22DD5442FF4CA4B6F9C9796E9968F1D995.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.uasset'
+[2017.09.14-03.48.09:117][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.uasset
+[2017.09.14-03.48.09:149][175]LogSavePackage: Save=10.87ms
+[2017.09.14-03.48.09:149][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_bullet_308572FE5324D771412A1B733A5EB094BC6.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.uasset'
+[2017.09.14-03.48.09:154][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.uasset
+[2017.09.14-03.48.09:185][175]LogSavePackage: Save=10.32ms
+[2017.09.14-03.48.09:185][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_bullet_357A6A7E3EF45FAA82F963B6FAE5BDE5304.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.uasset'
+[2017.09.14-03.48.09:191][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.uasset
+[2017.09.14-03.48.09:225][175]LogSavePackage: Save=12.71ms
+[2017.09.14-03.48.09:225][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_bullet_403E0875D7421B0D016D3AE1896436EF33.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.uasset'
+[2017.09.14-03.48.09:230][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.uasset
+[2017.09.14-03.48.09:261][175]LogSavePackage: Save=11.02ms
+[2017.09.14-03.48.09:261][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_bullet_45760D686F4A485310C60CE0A20C4729A2.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.uasset'
+[2017.09.14-03.48.09:266][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.uasset
+[2017.09.14-03.48.09:298][175]LogSavePackage: Save=11.07ms
+[2017.09.14-03.48.09:299][175]LogSavePackage: Moving '../../../../../../Implant/Implant/Saved/WPN_bullet_5_5615B837A6430C9C0EB5407BBEF7C05949.tmp' to '../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.uasset'
+[2017.09.14-03.48.09:303][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.uasset
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/MK2_Grenade/WPN_MK2Grenade.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/AKM/Models_Textures/WPN_AKM.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_22.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_308.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_357.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_40.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_45.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_56.
+[2017.09.14-03.48.12:308][321]AssetReimport: Importing new asset /Game/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_7x28.
+[2017.09.14-03.48.12:308][321]AssetReimport: Failed to import file C:/Implant/Implant/Content/ChamferModels/Ammunition/WPN_Ammunition_Cases_and_bullets_by_ChamferZone/WPN_bullet_5_7x28.obj.
+[2017.09.14-03.48.39:070][189]Cmd: QUIT_EDITOR
+[2017.09.14-03.48.39:103][189]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.14-03.48.39:144][189]LogExit: Preparing to exit.
+[2017.09.14-03.48.40:220][189]LogDirectoryWatcher: A directory notification for 'C:/Implant/Implant/Content/' was aborted.
+[2017.09.14-03.48.40:242][189]LogExit: Editor shut down
+[2017.09.14-03.48.40:246][189]LogExit: Transaction tracking system shut down
+[2017.09.14-03.48.40:382][189]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.14-03.48.40:382][189]LogDirectoryWatcher: A directory notification for '../../../../../../Implant/Implant/Content/' was aborted.
+[2017.09.14-03.48.40:382][189]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.14-03.48.40:382][189]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.14-03.48.40:382][189]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.14-03.48.40:442][189]LogExit: Object subsystem successfully closed.
+[2017.09.14-03.48.40:466][189]LogD3D11RHI: Shutdown
+[2017.09.14-03.48.40:466][189]LogD3D11RHI: CleanupD3DDevice
+[2017.09.14-03.48.40:564][189]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.14-03.48.40:586][189]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.09.14-03.48.40:586][189]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.09.14-03.48.40:586][189]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.09.14-03.48.40:586][189]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.14-03.48.40:587][189]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.09.14-03.48.40:587][189]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.09.14-03.48.40:587][189]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.09.14-03.48.40:587][189]LogDirectoryWatcher: A directory notification for 'C:/Implant/Implant/Content/Collections/' was aborted.
+[2017.09.14-03.48.40:587][189]LogDirectoryWatcher: A directory notification for 'C:/Implant/Implant/Content/Developers/scuho/Collections/' was aborted.
+[2017.09.14-03.48.40:587][189]LogDirectoryWatcher: A directory notification for 'C:/Implant/Implant/Saved/Collections/' was aborted.
+[2017.09.14-03.48.40:587][189]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.09.14-03.48.40:588][189]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.09.14-03.48.40:915][189]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.09.14-03.48.40:916][189]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.09.14-03.48.40:916][189]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.09.14-03.48.40:916][189]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.09.14-03.48.40:916][189]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.09.14-03.48.40:979][189]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.09.14-03.48.40:979][189]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.09.14-03.48.40:979][189]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.09.14-03.48.40:979][189]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.09.14-03.48.40:979][189]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.09.14-03.48.40:979][189]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.09.14-03.48.40:981][189]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.09.14-03.48.40:981][189]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.09.14-03.48.40:981][189]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.09.14-03.48.40:981][189]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.09.14-03.48.40:982][189]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.09.14-03.48.40:983][189]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.14-03.48.41:115][189]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.09.14-03.48.41:116][189]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.09.14-03.48.41:117][189]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.09.14-03.48.41:117][189]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.09.14-03.48.41:117][189]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.09.14-03.48.41:117][189]LogDirectoryWatcher: A directory notification for 'C:/Implant/Implant/Binaries/Win64' was aborted.
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module Implant (262)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.14-03.48.41:118][189]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.14-03.48.41:219][189]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.14-03.48.41:320][189]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.14-03.48.41:320][189]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.14-03.48.41:320][189]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.14-03.48.41:320][189]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.14-03.48.41:320][189]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.14-03.48.41:320][189]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.14-03.48.41:321][189]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.14-03.48.41:322][189]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.14-03.48.41:324][189]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.14-03.48.41:325][189]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.14-03.48.41:341][189]LogDerivedDataCache: Shutdown
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.14-03.48.41:341][189]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.14-03.48.41:342][189]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.14-03.48.41:342][189]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.14-03.48.41:342][189]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.14-03.48.41:342][189]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B17A383F6-4BE4-69DA-A352-959B534363E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2590e8494876bc706b9696bcb3681007%7C493d2c97394041d29aa20e3eb8ceb634%7Cd58fc3d0-2356-4ce5-ab6f-aead9d028048&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.14-03.48.41:368][189]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.14-03.48.41:370][189]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.14-03.48.41:371][189]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.14-03.48.41:371][189]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.14-03.48.41:371][189]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.14-03.48.41:371][189]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.14-03.48.41:371][189]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.14-03.48.41:371][189]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.14-03.48.41:374][189]LogExit: Exiting.
+[2017.09.14-03.48.41:382][189]Log file closed, 09/13/17 21:48:41
