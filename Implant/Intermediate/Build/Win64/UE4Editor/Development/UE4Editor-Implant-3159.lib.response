@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Implant-3159.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\Implant.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantCharacter.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantGameMode.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantHUD.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantProjectile.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\Implant.init.gen.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantCharacter.gen.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantGameMode.gen.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantHUD.gen.cpp.obj"
+"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\Implant\ImplantProjectile.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Implant\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Implant\Implant\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Implant-3159.lib"
